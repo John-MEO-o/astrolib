@@ -9,6 +9,7 @@ const { id = "YM_COUNTER_ID", partytown = false } = Astro.props;
 const attrs = partytown ? { type: "text/partytown" } : {};
 ---
 
+{/* <ShowIf id={id}> */}
 <script is:inline {...attrs}>
   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
   m[i].l=1*new Date();
@@ -22,3 +23,4 @@ const attrs = partytown ? { type: "text/partytown" } : {};
   });
 </script>
 <noscript><div><img src={`https://mc.yandex.ru/watch/${id}`} style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+{/* </ShowIf> */}
