@@ -35,6 +35,8 @@
     "astrolib",
     "google-analytics",
     "ga4",
+    "yandex-analytics",
+    "yandex-metrica",
     "astro-integration",
     "withastro"
   ],
